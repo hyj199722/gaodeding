@@ -11,6 +11,7 @@ public class Hyj326ApplicationTests {
 
     @Test
     public void contextLoads() {
+        System.out.println();
     }
 
 }
