@@ -12,7 +12,6 @@ public class UserController {
     UserService userService;
     @RequestMapping(value="/login",method = RequestMethod.POST)
     public String login(User user) {
-        //调用dao层
 
         User u = userService.getUser(user.getUsername());
 
